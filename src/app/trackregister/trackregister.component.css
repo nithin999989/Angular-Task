@@ -1,0 +1,20 @@
+.track-box {
+    width: 100vw; /* Full viewport width */
+    max-width: 98.9vw; /* Ensure it doesn’t exceed the viewport width */
+    height: 80vh; /* Adjust height as needed, 80% of viewport height */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Adjust padding for better spacing */
+    box-sizing: border-box; /* Include padding and border in the element’s total width and height */
+  }
+  
+  .form-control-lg {
+    font-size: 1.25rem; /* Increase font size */
+    height: calc(3.5em + 1.75rem + 4px); /* Adjust height */
+  }
+  
+  .btn-lg {
+    padding: 1.75rem 2.25rem; /* Increase padding for larger buttons */
+    font-size: 1.25rem; /* Increase font size */
+    line-height: 1.5; /* Ensure text aligns well */
+  }
+  

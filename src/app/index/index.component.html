@@ -1,0 +1,181 @@
+    <!-- Existing Navbar Section -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-dark">
+        <div class="container-fluid">
+        <div class="d-flex w-100">
+            <!-- Logo section -->
+            <a class="navbar-brand col-3 d-flex align-items-center justify-content-center" href="/">
+                <img src="https://res.cloudinary.com/dvbuqxaeq/image/upload/v1722081292/Screenshot_2024-07-27_171542_d0qzsw.png" alt="Logo" style="max-height: 25px;"> <!-- Adjust max-height as needed -->
+            </a>
+            
+            <!-- Toggler button for mobile view -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Navigation links -->
+            <div class="collapse navbar-collapse col-5" id="navbarNav">
+            <ul class="navbar-nav d-flex w-100">
+                <li class="nav-item flex-fill border-end border-dark">
+                <a routerLink='/staffhomepage'class="nav-link text-center fw-bold text-dark" aria-current="page" style="font-size: 1.5rem;" >Home</a>
+                </li>
+                <li class="nav-item flex-fill border-end border-dark">
+                <a routerLink='/about' class="nav-link text-center fw-bold text-dark" href="#" style="font-size: 1.5rem;">About Us</a>
+                </li>
+                <li class="nav-item flex-fill border-end border-dark">
+                <a routerLink='/gallery'class="nav-link text-center fw-bold text-dark" href="#" style="font-size: 1.5rem;">Gallery</a>
+                </li>
+                <li class="nav-item flex-fill border-end border-dark">
+                <a routerLink='/contact' class="nav-link text-center fw-bold text-dark" href="#" style="font-size: 1.5rem;">Contact Us</a>
+                </li>
+                <li class="nav-item flex-fill">
+                <a routerLink='/login' class="nav-link text-center fw-bold text-dark" href="#" style="font-size: 1.5rem;">Login</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+    
+    <!-- Admission Text Section -->
+    <div class="bg-light py-3">
+        <div class="container-fluid">
+        <div class="d-flex w-100 justify-content-center">
+            <div class="col-12 d-flex align-items-center justify-content-center">
+            <span class="fs-4">Admission are Open Vacancies for CSE-45,ECE-48,CIVIL-55,MECHANICAL-80,CSE AIDS-20,CSE AIML-25</span>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <!-- New Navbar Section -->
+    <nav class="navbar navbar-expand-lg bg-body-secondary" >
+        <div class="container-fluid bg-light py-3">
+        <div class="d-flex w-100">
+            <!-- Click Here for Register -->
+            <div class="col-6 d-flex align-items-center justify-content-center border-end border-dark">
+            <a class="nav-link text-center fw-bold text-dark" style="font-size: 1.5rem;" routerLink="/register">Click Here for Register</a>
+            </div>
+    
+            <!-- Track Registered Application -->
+            <div class="col-6 d-flex align-items-center justify-content-center">
+            <a routerLink='/trackregister' href='trackregister' class="nav-link text-center fw-bold text-dark" style="font-size: 1.5rem;" >Track Registered Application</a>
+            <router-outlet></router-outlet>
+            </div>
+           
+        </div>
+        </div>
+    </nav>
+    
+    <!-- Video Section -->
+    <div class="py-3">
+        <div class="container-fluid">
+        <div class="d-flex justify-content-center">
+            <div class="col-12">
+            <!-- Embedded Video -->
+            <div class="ratio ratio-16x9" style="height: 900px;"> 
+                <iframe 
+                src="https://www.youtube.com/embed/8sIjd2U0gYM?autoplay=1" 
+                frameborder="0" 
+                allow="autoplay; encrypted-media" 
+                allowfullscreen
+                style="width: 100%; height: 100%;"
+                ></iframe>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <!-- New Double-Height Navbar Section -->
+    <nav class="navbar navbar-expand-lg bg-body-secondary" style="height: 120px;">
+        <div class="container-fluid">
+        <div class="row w-100" style="height: 100%;">
+            <!-- Half for Table -->
+            <div class="col-6 d-flex align-items-center justify-content-center border-end border-dark">
+            <!-- Table -->
+            <table class="table table-sm mb-0">
+                <thead>
+                <tr>
+                    <th scope="col" style="font-size: 1.5rem;text-align: center;">Counselling Code</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td style="font-size: 1.5rem;text-align: center;">Engineering Programs BE/BTECH</td>
+                </tr>
+                <tr>
+                    <td>
+                    <div class="row">
+                        <div class="col" style="font-size: 1.5rem;text-align: center;">27 Years</div>
+                        <div class="col" style="font-size: 1.5rem;text-align: center;">587 Offers</div>
+                        <div class="col" style="font-size: 1.5rem;text-align: center;">67 Recruiters</div>
+                    </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-size: 1.5rem;text-align: center;">Phone Number: 123-456-7890</td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+    
+        <!-- Half for Video -->
+        <div class="col-6 d-flex align-items-center justify-content-center">
+            <!-- Video -->
+            <div class="position-relative" style="width: 100%; height: 100%;">
+            <iframe 
+                src="https://www.youtube.com/embed/8sIjd2U0gYM?autoplay=1" 
+                frameborder="0" 
+                allow="autoplay; encrypted-media" 
+                allowfullscreen 
+                style="position: relative; top: 0; left: 0; width: 101.5%; height: 100%;"
+            ></iframe>
+            </div>
+        </div>
+        </div>
+    </div>
+    </nav>
+    <!-- Footer Navbar -->
+    <footer class="bg-light text-dark" style="padding: 20px 0; border-top: 3px solid black;">
+        <div class="container-fluid">
+        <div class="row w-100">
+            <!-- 3 Parts for Logo and Copyright -->
+            <div class="col-4 d-flex flex-column align-items-center justify-content-center border-end border-dark">
+            <!-- Logo -->
+            <img src="https://res.cloudinary.com/dvbuqxaeq/image/upload/v1722081292/Screenshot_2024-07-27_171542_d0qzsw.png" alt="Logo" class="mb-2" style="max-height: 80px;">
+            <!-- Copyright Text -->
+            <p class="mb-0" style="font-size: 1.6rem;">Copy Right  ACET</p>
+            </div>
+    
+            <!-- 3 Parts for Address and Social Media Icons -->
+            <div class="col-4 d-flex flex-column align-items-center justify-content-center border-end border-dark">
+            <!-- Address -->
+            <p class="mb-2" style="font-size: 2rem;">Address:</p>
+            <p class="mb-0" style="font-size: 1.6rem;">Taramani,Chennai - Capital of TN</p>
+            <!-- Social Media Icons -->
+    <div class="d-flex mt-2">
+        <a href="https://www.facebook.com" target="_blank" class="me-2"><i class="bi bi-facebook" style="font-size: 30px;"></i></a>
+        <a href="https://www.youtube.com" target="_blank" class="me-2"><i class="bi bi-youtube" style="font-size: 30px;"></i></a>
+        <a href="https://wa.me/1234567890" target="_blank" class="me-2"><i class="bi bi-whatsapp" style="font-size: 30px;"></i></a>
+        <a href="https://www.linkedin.com" target="_blank" class="me-2"><i class="bi bi-linkedin" style="font-size: 30px;"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter" style="font-size: 30px;"></i></a>
+    </div>
+    
+            </div>
+    
+            <!-- 3 Parts for Approval Text and Image -->
+            <div class="col-4 d-flex flex-column align-items-center justify-content-center">
+            <!-- Approval Text -->
+            <p class="mb-2" style="font-size: 1.5rem;">Approved and Affiliated By:</p>
+            <!-- Approval Image -->
+            <img src="https://res.cloudinary.com/dvbuqxaeq/image/upload/v1722100946/Gemini_Generated_Image_oj7pf9oj7pf9oj7p_kcqglr.jpg" alt="Approval Image" style="max-height: 80px;">
+            </div>
+        </div>
+        </div>
+    </footer>
+    
+    
+    
