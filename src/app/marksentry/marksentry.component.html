@@ -1,32 +1,31 @@
-
-  <!-- Top Navbar -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-dark">
+<!-- Top Navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-dark">
     <div class="container-fluid">
       <div class="d-flex w-100">
         <!-- Logo section -->
         <a class="navbar-brand col-3 d-flex align-items-center justify-content-center" href="/">
-          <img src="https://res.cloudinary.com/dvbuqxaeq/image/upload/v1722081292/Screenshot_2024-07-27_171542_d0qzsw.png" alt="Logo" style="max-height: 50px;">
+          <img src="https://res.cloudinary.com/dvbuqxaeq/image/upload/v1722081292/Screenshot_2024-07-27_171542_d0qzsw.png" alt="Logo" style="max-height: 25px;">
         </a>
-
+  
         <!-- Toggler button for mobile view -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
+  
         <!-- Navigation links -->
         <div class="collapse navbar-collapse col-5" id="navbarNav">
           <ul class="navbar-nav d-flex w-100">
             <li class="nav-item flex-fill border-end border-dark">
-              <a class="nav-link text-center fw-bold text-dark" aria-current="page" style="font-size: 1.5rem;" href="#">Staff/Student Home Page</a>
+              <a class="nav-link text-center fw-bold text-dark" aria-current="page" style="font-size: 1.5rem;" href="#" routerLink="/adminhomepage">Staff/Student Home Page</a>
             </li>
             <li class="nav-item flex-fill border-end border-dark">
-              <a class="nav-link text-center fw-bold text-dark" href="#" routerLink='/aboutdepartment'style="font-size: 1.5rem;">About Their Department</a>
+              <a routerLink="/aboutdepartment" class="nav-link text-center fw-bold text-dark" href="#" style="font-size: 1.5rem;">About Their Department</a>
             </li>
             <li class="nav-item flex-fill border-end border-dark">
-              <a class="nav-link text-center fw-bold text-dark" href="#" style="font-size: 1.5rem;">Department Toppers</a>
+              <a routerLink="/deparmenttopperspage" class="nav-link text-center fw-bold text-dark" href="#" style="font-size: 1.5rem;">Department Toppers</a>
             </li>
-            <li class="nav-item flex-fill">
-              <a class="nav-link text-center fw-bold text-dark" href="#" style="font-size: 1.5rem;">Logout</a>
+            <li class="nav-item flex-fill border-end border-dark">
+              <a routerLink="/login" class="nav-link text-center fw-bold text-dark" href="#" style="font-size: 1.5rem;">Logout</a>
             </li>
           </ul>
         </div>

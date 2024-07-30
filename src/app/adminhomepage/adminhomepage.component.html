@@ -1,1 +1,161 @@
-<p>adminhomepage works!</p>
+<!-- Top Navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-dark">
+    <div class="container-fluid">
+      <div class="d-flex w-100">
+        <!-- Logo section -->
+        <a class="navbar-brand col-3 d-flex align-items-center justify-content-center" href="/">
+          <img src="https://res.cloudinary.com/dvbuqxaeq/image/upload/v1722081292/Screenshot_2024-07-27_171542_d0qzsw.png" alt="Logo" style="max-height: 25px;">
+        </a>
+  
+        <!-- Toggler button for mobile view -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <!-- Navigation links -->
+        <div class="collapse navbar-collapse col-5" id="navbarNav">
+          <ul class="navbar-nav d-flex w-100">
+            <li class="nav-item flex-fill border-end border-dark">
+              <a class="nav-link text-center fw-bold text-dark" aria-current="page" style="font-size: 1.5rem;" href="#" routerLink="/adminhomepage">Staff/Student Home Page</a>
+            </li>
+            <li class="nav-item flex-fill border-end border-dark">
+              <a routerLink="/aboutdepartment" class="nav-link text-center fw-bold text-dark" href="#" style="font-size: 1.5rem;">About Their Department</a>
+            </li>
+            <li class="nav-item flex-fill border-end border-dark">
+              <a routerLink="/deparmenttopperspage" class="nav-link text-center fw-bold text-dark" href="#" style="font-size: 1.5rem;">Department Toppers</a>
+            </li>
+            <li class="nav-item flex-fill border-end border-dark">
+              <a routerLink="/login" class="nav-link text-center fw-bold text-dark" href="#" style="font-size: 1.5rem;">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+    <section id="staff-students">
+        <h2>Staff & Students</h2>
+        <div id="manage-staff">
+            <h3>Manage Staff</h3>
+            <p>Details and management options for staff members.</p>
+            <ul>
+                <li>Dr. Jane Smith - Professor</li>
+                <li>Mr. Alan Brown - Lecturer</li>
+                <li>Ms. Emma Wilson - Assistant Professor</li>
+            </ul>
+        </div>
+        <div id="manage-students">
+            <h3>Manage Students</h3>
+            <p>Details and management options for students.</p>
+            <ul>
+                <li>John Doe - Computer Science</li>
+                <li>Jane Roe - Information Technology</li>
+                <li>Jim Beam - Electronics Engineering</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="salaries-fees">
+        <h2>Salaries & Fees</h2>
+        <div id="manage-salaries">
+            <h3>Manage Salaries</h3>
+            <p>Details and management options for staff salaries.</p>
+            <ul>
+                <li>Dr. Jane Smith - $80,000</li>
+                <li>Mr. Alan Brown - $60,000</li>
+                <li>Ms. Emma Wilson - $70,000</li>
+            </ul>
+        </div>
+        <div id="manage-fees">
+            <h3>Manage Fees</h3>
+            <p>Details and management options for student fees.</p>
+            <ul>
+                <li>John Doe - $10,000</li>
+                <li>Jane Roe - $9,500</li>
+                <li>Jim Beam - $10,200</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="exam-schedule">
+        <h2>Exam Schedule</h2>
+        <div id="exam-details">
+            <h3>Upcoming Exams</h3>
+            <table>
+                <tr>
+                    <th>Exam</th>
+                    <th>Date</th>
+                </tr>
+                <tr>
+                    <td>Artificial Intelligence</td>
+                    <td>2024-08-10</td>
+                </tr>
+                <tr>
+                    <td>Machine Learning</td>
+                    <td>2024-08-12</td>
+                </tr>
+                <tr>
+                    <td>Advanced Algorithms</td>
+                    <td>2024-08-14</td>
+                </tr>
+            </table>
+        </div>
+        <div id="student-details">
+            <h3>Student Details</h3>
+            <p>Comprehensive details of all students.</p>
+            <ul>
+                <li>John Doe - Computer Science, Year 3</li>
+                <li>Jane Roe - Information Technology, Year 2</li>
+                <li>Jim Beam - Electronics Engineering, Year 4</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="events-exams">
+        <h2>Events, Exams & Sports</h2>
+        <div id="upcoming-events">
+            <h3>Upcoming Events</h3>
+            <p>Details about upcoming events.</p>
+            <ul>
+                <li>Annual Tech Fest - 2024-09-15</li>
+                <li>Guest Lecture on AI - 2024-08-20</li>
+                <li>Workshop on Cybersecurity - 2024-09-05</li>
+            </ul>
+        </div>
+        <div id="upcoming-sports">
+            <h3>Sports Activities</h3>
+            <p>Information about upcoming sports activities.</p>
+            <ul>
+                <li>Inter-college Football Tournament - 2024-08-25</li>
+                <li>Annual Marathon - 2024-09-10</li>
+                <li>Cricket Championship - 2024-09-20</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="research-development">
+        <h2>Research & Development</h2>
+        <div id="research-partners">
+            <h3>Research Partners</h3>
+            <p>Details about research and development partners.</p>
+            <ul>
+                <li>XYZ Research Labs</li>
+                <li>ABC Innovations</li>
+                <li>Tech Solutions Inc.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="placements">
+        <h2>Placements</h2>
+        <div id="placement-partners">
+            <h3>Placement Partners</h3>
+            <p>Details and management options for placement partners.</p>
+            <ul>
+                <li>Google</li>
+                <li>Microsoft</li>
+                <li>Amazon</li>
+                <li>Facebook</li>
+            </ul>
+        </div>
+    </section>

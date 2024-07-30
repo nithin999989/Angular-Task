@@ -11,6 +11,8 @@ import { EntrypageComponent } from './entrypage/entrypage.component';
 import { MarksentryComponent } from './marksentry/marksentry.component';
 import { StudenthomepageComponent } from './studenthomepage/studenthomepage.component';
 import { DepartmenttopperpageComponent } from './departmenttopperpage/departmenttopperpage.component';
+import { AdminhomepageComponent } from './adminhomepage/adminhomepage.component';
+import { AboutdepartmentComponent } from './aboutdepartment/aboutdepartment.component';
 
 export const routes: Routes = [
   {
@@ -40,6 +42,10 @@ export const routes: Routes = [
     path:'marksentry',
     component:MarksentryComponent
 
+  },
+  {
+    component:AdminhomepageComponent,
+    path:'adminhomepage'
   },{
     path:'studententrypage',
     component:StudenthomepageComponent
@@ -50,7 +56,7 @@ export const routes: Routes = [
 
   },{
     path:'aboutdepartment',
-    component:AboutComponent
+    component:AboutdepartmentComponent
 
   },{
     path:'departmenttopperpage',
@@ -68,6 +74,10 @@ export const routes: Routes = [
   {
     path: 'trackregister',
     component: TrackregisterComponent
+  },{
+    path:'studenthomepage',
+    component:StudenthomepageComponent
+
   },
   {
     path: '',

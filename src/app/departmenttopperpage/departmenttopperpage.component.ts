@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-departmenttopperpage',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './departmenttopperpage.component.html',
   styleUrl: './departmenttopperpage.component.css'
 })

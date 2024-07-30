@@ -13,11 +13,12 @@ import { MarksentryComponent } from './marksentry/marksentry.component';
 import { AboutdepartmentComponent } from './aboutdepartment/aboutdepartment.component';
 import { StudenthomepageComponent } from './studenthomepage/studenthomepage.component';
 import { DepartmenttopperpageComponent } from './departmenttopperpage/departmenttopperpage.component';
+import { AdminhomepageComponent } from './adminhomepage/adminhomepage.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,RouterModule,IndexComponent,RegisterComponent,TrackregisterComponent,AboutComponent,GalleryComponent,ContactComponent,LoginComponent,StaffhomepageComponent,EntrypageComponent,TrackregisterComponent,MarksentryComponent,AboutdepartmentComponent,StudenthomepageComponent,StaffhomepageComponent,DepartmenttopperpageComponent],
+  imports: [RouterOutlet,RouterModule,IndexComponent,RegisterComponent,TrackregisterComponent,AboutComponent,GalleryComponent,ContactComponent,LoginComponent,StaffhomepageComponent,EntrypageComponent,TrackregisterComponent,MarksentryComponent,AboutdepartmentComponent,StudenthomepageComponent,StaffhomepageComponent,DepartmenttopperpageComponent,AdminhomepageComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

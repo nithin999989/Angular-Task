@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-trackregister',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './trackregister.component.html',
   styleUrl: './trackregister.component.css'
 })
