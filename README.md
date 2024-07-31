@@ -1,5 +1,11 @@
 # Weekend Case Study Student Managment System
 
+# Team Members:Nithin and Deepthi
+
+# Pages Done By Nithin(7 Pages):Index Page,Registration Page,Track Application Page,About Us Page,Gallery Page,Contact US Page,Login Page
+
+# Pages Done By Deepthi(7 Pages):Department Staff Home Page,Department Staff Attendance Page,Department Marks Entry Page,STaff Home Page,Admin Home Page,About Department Page,Department Topper Page
+
 # Index Page
 ![image](https://github.com/user-attachments/assets/90c44859-4ff6-4715-83c3-e00ce337d2e7)
 
